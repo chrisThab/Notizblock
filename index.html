@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notizblock</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styles/standard.css">
+
+    <script src="./scripts/templates.js"></script>
+    <script src="./scripts/render.js"></script>
+
+    <script src="./script.js"></script>
+
+</head>
+<body onload="getFromLocalStorage()">
+
+<div class="underbody">
+    <h1>Notizblock</h1>
+    <div class="newNote">
+        <input class="titlebox" id="noteTitle" type="text" placeholder="Neuer Title" required>
+        <input class="notebox" id="noteInput" type="text" placeholder="Neue Notiz" required>
+        <button class="saveBtn" onclick="addNote()">Notiz speichern</button>
+    </div>
+    <h2>Notizen</h2>
+        <div id="content">
+    </div>
+        <h2>Papierkorb</h2>
+        <div id="trashContent"></div>
+</div>
+
+</body>
+
+</html>
+
