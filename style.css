@@ -6,96 +6,12 @@
     gap: 16px;
 }
 
-.titlebox{
-    flex-wrap: wrap;
-    gap: 8px;
-    padding: 8px;
-    text-align: center;
-    border-radius: 8px;
-}
-
-#content{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.note{
-    background-color: burlywood;
-    width: 160px;
-    height: 160px;
-    border-radius: 16px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.notebox{
-    padding: 16px;
-    border-radius: 8px;
-    align-items: flex-start;
-    text-align: center;
-}
-
-.newNote{
-    width: 240px;
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 16px;
-    align-items: center;
-}
 
 .underbody{
     display: flex;
     align-items: center;
     flex-direction: column;
     margin-top: 16px;
-}
-
-.noteTitle{
-    text-decoration: underline;
-}
-
-.btnContainer{
-    display: flex;
-    gap: 40px;
-}
-
-.btnAgain{
-    border-radius: 100%;
-}
-
-.btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 32px;
-    width: 32px;
-    background-color: antiquewhite;
-    border-radius: 100%;
-    border: 3px, solid, antiquewhite;
-}
-
-.saveBtn{
-    border-radius: 8px;
-    width: fit-content;
-}
-
-.btn:hover {
-    cursor: pointer;
-    border: 2px, solid, grey;
-}
-
-.saveBtn:hover {
-    cursor: pointer;
-    border: 2px, solid, grey;
-}
-
-.btn>img {
-    height: 24px;
-    width: 24px;
 }
 
 a {

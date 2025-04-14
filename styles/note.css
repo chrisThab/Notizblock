@@ -1,0 +1,45 @@
+
+.titlebox {
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.note {
+    background-color: burlywood;
+    width: 160px;
+    height: 160px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.notebox {
+    padding: 16px;
+    border-radius: 8px;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.newNote {
+    width: 240px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    align-items: center;
+}
+
+.noteTitle {
+    text-decoration: underline;
+}
